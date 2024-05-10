@@ -1,0 +1,28 @@
+Task Description: You are given a list of feedback comments sourced from a survey for company named Demo Company, where the intent of the survey was get feedback.
+                Your task is to generate a summary of around 100 words for these comments in JSON format.
+                Input: A list of feedback comments and interactions with call center agents, provided as follows:
+                comments = ["('1', 'asha')", "('2', 'nikita.attr')", "('3', 'soni')", "('5', 'nikita.attr')", "('6', 'soni')", "('7', 'nikita.attr')", "('8', 'chamanjeet')", "('9', 'soni')", "('10', 'nikita.attr')", "('11', 'roshan')", "('12', 'asha')", "('13', 'chamanjeet')", "('14', 'chamanjeet')", "('15', 'deepanshi')", "('16', 'roshan')", "('17', 'nikita.attr')", "('18', 'asha')", "('19', 'deepanshi')", "('20', 'nikita.attr')", "('21', 'roshan')", "('22', 'soni')", "('23', 'chamanjeet')", "('24', 'roshan')", "('25', 'nikita.attr')", "('26', 'maimun')", "('27', 'chamanjeet')", "('28', 'nikita.attr')", "('29', 'adarsh')", "('30', 'nikita.attr')", "('31', 'soni')", "('32', 'gaurang')", "('33', 'deepanshi')", "('34', 'jyoti.c')", "('35', 'chamanjeet')", "('36', 'adarsh')", "('38', 'chamanjeet')", "('39', 'maimun')", "('41', 'gaurang')", "('42', 'roshan')", "('44', 'soni')", "('45', 'geeta')", "('46', 'roshan')", "('47', 'deepanshi')", "('49', 'nikita.attr')", "('50', 'gokul')", "('51', 'tanzir')", "('53', 'chamanjeet')", "('54', 'geeta')", "('55', 'tanzir')", "('56', 'soni')", "('57', 'maimun')", "('58', 'soni')", "('60', 'jyoti.c')", "('61', 'nikita.attr')", "('62', 'tanzir')", "('63', 'soni')", "('64', 'jyoti.c')", "('65', 'asha')", "('66', 'geeta')", "('67', 'maimun')", "('68', 'roshan')", "('69', 'soni')", "('70', 'asha')", "('71', 'asha')", "('72', 'chamanjeet')", "('73', 'maimun')", "('75', 'deepanshi')", "('76', 'chamanjeet')", "('77', 'ankit')", "('78', 'geeta')", "('79', 'jyoti.c')", "('80', 'ankit')", "('81', 'soni')", "('82', 'neha kashyap')", "('83', 'chamanjeet')", "('84', 'asha')", "('85', 'adarsh')", "('86', 'maimun')", "('87', 'soni')", "('88', 'geeta')", "('89', 'asha')", "('90', 'deepanshi')", "('92', 'ankit')", "('93', 'soni')", "('94', 'maimun')", "('95', 'neha kashyap')", "('96', 'adarsh')", "('97', 'gaurang')", "('98', 'nikita kashyap')", "('99', 'deepanshi')", "('100', 'nikita kashyap')", "('101', 'jyoti.c')", "('102', 'chamanjeet')", "('103', 'adarsh')", "('104', 'ankit')", "('105', 'maimun')", "('106', 'asha')", "('107', 'geeta')", "('108', 'neha kashyap')", "('109', 'roshan')"]
+                Output: A JSON object containing the summary of the feedback comments divided into positive and negative along with its key areas and its short explanation, structured as follows:
+                {
+                    "summary": summary gist
+                    Positive Area:
+                    key area 1 - short explanation
+                    key area 2 - short explanation
+                    Negative Area:
+                    key area 1 - short explanation
+                    key area 2 - short explanation
+                }
+                Requirements:
+                1. Highlight main topics on which management should be focused on.
+                2. Summary Length: The summary should be concise but contain all important points mentioned in the feedback comments.
+                3. Key Points: Ensure that the summary captures key points of the feedback, including positive and negative aspects of the customer experience.
+                4. Clarity: The summary should be clear and understandable to senior members to get an overview of the feedback.
+                5. Contextual Understanding: The LLM should demonstrate an understanding of the context of banking, customer service, and common issues faced by customers.
+                6. Language Style: Use professional and neutral language suitable for presentation to senior members.
+                Additional Notes:
+                - Pay attention to sentiment analysis to distinguish between positive and negative feedback.
+                - Include any specific issues or suggestions mentioned in the comments.
+                - Use natural language generation to create a coherent summary that reflects the general sentiment and concerns of the customers.
+                - Ensure that the summary maintains confidentiality and doesn't disclose personal or sensitive information.
+                - Provide a clear structure to the summary, possibly dividing it into positive and negative aspects for easier understanding.
+                - Avoid redundancy and focus on highlighting unique aspects of the feedback.

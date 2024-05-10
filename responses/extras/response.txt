@@ -1,0 +1,12 @@
+Here is a 100-word summary of the feedback comments in JSON format:
+
+{
+    "summary": "The feedback from customers of Demo Company indicates a mix of positive and negative experiences. Customers are generally satisfied with the company's customer service, particularly the helpfulness and professionalism of the call center agents. However, there are concerns about the timeliness of responses and the resolution of issues. Customers also suggest improvements in the company's communication and transparency, as well as the consistency of the service provided. Overall, the feedback highlights the need for the company to focus on enhancing the customer experience, particularly in terms of responsiveness, communication, and issue resolution.",
+    "Positive Area": {
+        "Customer Service": "Customers appreciate the helpfulness and professionalism of the call center agents."
+    },
+    "Negative Area": {
+        "Responsiveness": "Customers express concerns about the timeliness of responses and the resolution of issues.",
+        "Communication": "Customers suggest improvements in the company's communication and transparency."
+    }
+}
