@@ -1,0 +1,14 @@
+Master summary below>>>>
+Here is a summary of the feedback comments in JSON format:
+
+{
+    "summary": "The feedback for Demo Company's loan application process indicates a mixed response from customers. While some found the process easy and praised the knowledgeable agents, others faced difficulties and expressed dissatisfaction with the lack of transparency in loan details. The key areas requiring attention are the consistency of the customer experience and ensuring clear communication of loan offers, fees, and interest rates.",
+    "Positive Area": {
+        "Ease of Loan Application Process": "Many customers rated the loan application process as very easy and straightforward, indicating the company has made improvements in this area.",
+        "Tele-sales Agent Performance": "Customers praised the knowledge and capability of the tele-sales agents in explaining the loan offers, suggesting the company has invested in training its customer service team."
+    },
+    "Negative Area": {
+        "Lack of Transparency in Loan Details": "Some customers expressed dissatisfaction with the lack of clarity in the loan offers, fees, and interest rates, indicating a need for more transparent and detailed information.",
+        "Inconsistent Customer Experience": "A few customers reported facing difficulties and expressed frustration with the company's responsiveness, suggesting the customer experience is not consistently positive across all interactions."
+    }
+}

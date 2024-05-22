@@ -1,0 +1,12 @@
+below>>>>
+{
+    "summary": The feedback comments indicate that customers are generally satisfied with Home Credit's services, particularly the quick loan approval process, convenient repayment options, and polite customer service. However, some customers have raised concerns about high interest rates, lack of transparency in fees and charges, and difficulty in contacting customer care. The management should focus on addressing these issues to further improve the customer experience.
+    "Positive Area":
+    Quick and easy application process - Customers appreciate the speed and convenience of the loan application process.
+    Convenient repayment options - Customers find the available options for repaying installments to be satisfactory.
+    Polite and professional customer service - Customers are generally pleased with the behavior and responsiveness of Home Credit's customer service representatives.
+    "Negative Area":
+    High interest rates - Some customers feel that the interest rates charged by Home Credit are too high.
+    Lack of transparency in fees and charges - A few customers have expressed dissatisfaction with the clarity and transparency of the fees and charges associated with Home Credit's products and services.
+    Difficulty in contacting customer care - Some customers have faced challenges in reaching and communicating with Home Credit's customer care team.
+}

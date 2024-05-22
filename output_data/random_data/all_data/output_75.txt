@@ -1,0 +1,13 @@
+Master summary below>>>>
+{
+    "summary": The feedback comments from customers of Demo Company indicate a generally positive experience with the company's products and services, with some areas for improvement. The key positive aspects include quick loan approvals, easy and convenient application process, and overall satisfaction with the services provided. However, the high interest rates and issues with customer care, such as difficulty in contacting and resolving queries, have been identified as areas that need attention.
+    "Positive Area":
+    Quick loan approvals / Higher chances of loan getting approved - Customers appreciate the speed and ease with which their loan applications are processed and approved.
+    Application Process - Easy, Fast and Convenient - Customers find the overall application process to be straightforward and efficient.
+    Overall satisfaction – Everything was ok/without problems - Customers are generally satisfied with the company's products and services.
+    "Negative Area":
+    High interest rate - Customers feel that the interest rates charged by the company are too high and should be reduced.
+    Difficulty in contacting customer care / Slow response to queries - Customers have faced challenges in reaching out to the customer care team and getting their issues resolved in a timely manner.
+}
+
+Process finished with exit code 0

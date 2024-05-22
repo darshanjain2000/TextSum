@@ -1,0 +1,16 @@
+Master summary below>>>>
+Here is a 100-word summary of the feedback comments based on the provided information:
+
+{
+    "summary": The feedback from customers of Demo Company indicates a generally positive experience with the online loan application process and mobile app. Customers appreciated the ease of use, clear presentation of fees and interest rates, and overall loan processing time. However, some customers expressed concerns about the speed of the mobile app and the time taken to receive the loan approval. The summary highlights the key positive areas, such as user-friendliness and transparency, as well as the negative areas, such as app performance and loan approval speed, that the company should focus on to improve customer satisfaction.
+
+    "Positive Area":
+        Ease of use - Customers found the online application and mobile app very easy to navigate.
+        Clarity of information - Customers appreciated the clear communication of fees and interest rates.
+
+    "Negative Area":
+        App speed - Some customers felt the mobile app could be faster in performance.
+        Loan approval time - A few customers were concerned about the time taken to approve and disburse the loan.
+}
+
+Process finished with exit code 0

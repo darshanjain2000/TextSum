@@ -4,7 +4,7 @@ import os
 class ClaudeDAL:
     def __init__(self):
         self.client = anthropic.Anthropic(
-
+            
         )
         self.model = "claude-3-haiku-20240307"
         self.max_token = 4096

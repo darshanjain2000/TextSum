@@ -1,0 +1,12 @@
+Final summary with quant data below>>>>
+Here is a summary that incorporates the quantitative data and the key points from the previous feedback summary:
+
+The customer feedback for Demo Company indicates a generally positive experience, with an NPS score of 34. The survey had a total of 2,543 respondents, with 72% being Promoters, 16% Passive, and 12% Detractors.
+
+Customers appreciate the company's strengths, such as the quick and easy loan approval process, the availability of Home Credit as a finance partner, and the polite and professional customer service. The average rating for the question "Polite & professional payment collection process" was 8.6 out of 10, reflecting the positive sentiment in this area.
+
+However, the feedback also highlights some areas for improvement. Customers have raised concerns about the high interest rates, with an average rating of 8.2 out of 10 for the question "Offer exciting deals & promotions." Additionally, some customers have expressed dissatisfaction with the frequency of calls and messages, as well as the responsiveness of the customer care team.
+
+To further enhance the overall customer experience, the management should focus on addressing these issues, such as reviewing the interest rates and improving the responsiveness and accessibility of the customer care team. By addressing these concerns, Demo Company can build on the positive aspects of the customer experience and continue to strengthen its relationship with its customers.
+
+Process finished with exit code 0

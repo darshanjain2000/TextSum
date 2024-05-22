@@ -1,0 +1,18 @@
+Master summary below>>>>
+Here is a summary of the feedback comments in JSON format:
+
+{
+    "summary": "The overall feedback on Home Credit's products and services is mixed, with customers highlighting both positive and negative aspects. The key positive areas are the quick loan approval process, convenient application and repayment, and good customer service. However, the high interest rates and additional charges are the main concerns raised by customers. Some customers also mentioned issues with the lack of direct communication with the customer care team and delays in loan disbursement. The management should focus on addressing these pain points to improve the overall customer experience."
+    "Positive Area":
+        "Quick loan approvals / Higher chances of loan getting approved" - Customers appreciated the fast and easy loan approval process.
+        "Application Process - Easy, Fast and Convenient" - The online application and documentation process was found to be user-friendly.
+        "Convenient repayment process / collection" - Customers liked the flexibility and ease of making loan repayments.
+        "Customer care service is good" - The behavior and responsiveness of the customer care team was appreciated by some customers.
+    "Negative Area":
+        "High interest rate" - Many customers felt that the interest rates charged by Home Credit were too high.
+        "Expensive fees & Charges - Penalty charges, Bounce charges, late payment charges" - Customers were unhappy with the additional charges and penalties levied by Home Credit.
+        "Bad service quality / Problems with service/Bad experience" - Some customers faced issues with the overall quality of service and lack of responsiveness from the customer care team.
+        "Lack of information provided – about terms / procedures" - Customers mentioned that they were not provided with complete information about the loan terms and conditions.
+}
+
+Process finished with exit code 0

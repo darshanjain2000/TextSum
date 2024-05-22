@@ -1,0 +1,18 @@
+Final summary with quant data below>>>>
+Here is a summary that incorporates the quantitative data and key points from the feedback comments:
+
+The survey results for Demo Company indicate a mixed customer experience, with both positive and negative aspects. The overall Net Promoter Score (NPS) is 34, with 72% of respondents as Promoters, 16% as Passive, and 12% as Detractors.
+
+On the positive side, customers appreciate the quick and easy application process, timely loan disbursement, and convenient repayment options provided by Demo Company. They also find the payment collection process to be polite and professional, and generally trust the company. The survey results show that the "Polite & professional payment collection process" received an average rating of 8.6 out of 10.
+
+However, the key concerns raised by customers include high interest rates, frequent calls and messages from the company, and difficulty in contacting the customer care team. Customers suggest that Demo Company should provide more transparent information about fees and charges. The "Offer exciting deals & promotions" question received an average rating of 8.2 out of 10, indicating room for improvement in this area.
+
+To address these issues, Demo Company should focus on the following:
+1. Reviewing and potentially reducing interest rates to better meet customer expectations.
+2. Improving the responsiveness and effectiveness of the customer care team to address queries and complaints more efficiently.
+3. Enhancing transparency by providing clear and detailed information about fees, charges, and loan terms.
+4. Optimizing the frequency and content of communications with customers to reduce the perceived nuisance.
+
+By addressing these key areas, Demo Company can enhance the overall customer experience, strengthen its brand reputation, and build stronger relationships with its clients.
+
+Process finished with exit code 0

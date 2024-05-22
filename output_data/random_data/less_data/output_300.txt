@@ -1,0 +1,18 @@
+Master summary below>>>>
+Here is a summary of the feedback comments for Demo Company:
+
+Summary: The feedback comments indicate that customers are generally satisfied with Home Credit's services, particularly the quick loan approval process, easy application, and convenient repayment options. However, some customers have raised concerns about the high interest rates and occasional issues with customer service, such as difficulty reaching the call center. The key areas that management should focus on are:
+
+Positive Area:
+Quick loan approvals / Higher chances of loan getting approved - Customers appreciate the fast and efficient loan approval process.
+Application Process - Easy, Fast and Convenient - Customers find the loan application process to be straightforward and hassle-free.
+Convenient repayment process / collection - Customers are satisfied with the ease of making loan repayments.
+
+Negative Area:
+Interest rate is high - Several customers have mentioned that the interest rates charged by Home Credit are too high.
+Customer care service is not good - Some customers have faced difficulties in reaching the customer service team and getting their issues resolved.
+Extra charges / Deductions - A few customers have reported instances of unexpected charges or deductions from their accounts.
+
+The summary highlights the key positive and negative aspects of the customer experience, providing management with a clear understanding of the areas that require attention. By addressing the concerns around interest rates and customer service, Home Credit can further improve customer satisfaction and loyalty.
+
+Process finished with exit code 0

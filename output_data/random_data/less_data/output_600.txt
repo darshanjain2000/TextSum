@@ -1,0 +1,13 @@
+Master summary below>>>>
+{
+    "summary": The feedback comments from customers of Home Credit indicate a generally positive experience, with the majority of customers expressing satisfaction with the company's services. The key positive areas highlighted in the feedback include the ease and speed of the loan application process, the availability of loans when needed, and the overall satisfaction with the company's services. However, some customers have raised concerns about the high interest rates charged by Home Credit, as well as the frequency of calls and messages from the company's customer service team.
+    "Positive Area":
+        Application Process - Easy, Fast and Convenient: Customers appreciate the ease and speed of the loan application process, with many noting that they were able to obtain loans quickly and without much hassle.
+        Quick loan approvals / Higher chances of loan getting approved: Customers are satisfied with the company's ability to provide loans in a timely manner, even in times of need.
+        Overall satisfaction – Everything was ok/without problems: Many customers express overall satisfaction with Home Credit's services, indicating that their experience with the company has been positive.
+    "Negative Area":
+        Interest rate is too high: Several customers have expressed concerns about the high interest rates charged by Home Credit, suggesting that the company should consider lowering its rates.
+        Frequent calls and messages from customer service: Some customers have complained about the frequency of calls and messages they receive from Home Credit's customer service team, which can be perceived as intrusive or annoying.
+}
+
+Process finished with exit code 0
