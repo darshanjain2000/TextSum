@@ -13,6 +13,12 @@ class SummaryService:
 
         return batch_summary
 
+    def generate_batch_summary_with_quant_summary(self, active_approach, rows_data, previous_summary, quant_summary):
+        prompt = self.prompt.generate_column_summary(active_approach, rows_data, previous_summary, quant_summary)
+        batch_summary = self.llm_client.get_llm_response(prompt)
+
+        return batch_summary
+
     def generate_master_summary(self, active_approach, all_summaries_data):
         prompt = self.prompt.generate_master_summary(active_approach, all_summaries_data)
         batch_summary = self.llm_client.get_llm_response(prompt)
@@ -27,5 +33,10 @@ class SummaryService:
 
     def generate_quant_data_summary_request(self, quant_data):
         prompt = self.prompt.generate_quant_data_summary_prompt(quant_data)
+        batch_summary = self.llm_client.get_llm_response(prompt)
+        return batch_summary
+
+    def generate_quant_data_summary_with_type_and_key_metric(self, quant_data, survey_type, key_metric):
+        prompt = self.prompt.generate_quant_data_summary_with_key_objective_and_survey_type_prompt(quant_data, survey_type, key_metric)
         batch_summary = self.llm_client.get_llm_response(prompt)
         return batch_summary

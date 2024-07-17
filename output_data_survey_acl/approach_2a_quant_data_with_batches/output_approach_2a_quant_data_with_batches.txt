@@ -1,0 +1,52 @@
+/private/var/www/neurosensum/textsum/venv/bin/python /private/var/www/neurosensum/textsum/main.py
+Quanty Summary Below >>>>>>
+The survey results for the loan company's app-based loan service indicate a positive customer experience. The overall ease of the loan application process scored an average of 4.4 out of 5, with 84% of respondents rating it in the top 2 boxes. The installation and login process, as well as the ease of use, were particularly well-received, with 93% of respondents rating them in the top 2 boxes. The app's simplicity and transparency in fees and charges were also highlighted, with 96% and 71% of respondents, respectively, rating them in the top 2 boxes. The survey results suggest that the loan company's app-based service provides a user-friendly and efficient experience for its customers.
+2
+0
+INFO: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+batch: 0, summary: {
+    "summary": "The feedback comments from customers of the home credit loan app indicate a generally positive experience, with some areas for improvement. The majority of customers found the online loan application process to be very easy, with 84% rating it 4 or 5 out of 5. Customers particularly appreciated the simplicity of the app, the transparency of fees and charges, and the overall ease of use. However, a few customers reported issues with the download and login process, as well as the app's speed and clarity of fees. The survey results suggest that the home credit loan app provides a user-friendly and efficient experience for most customers, but there is room for enhancement in certain areas to further improve the overall customer experience.",
+    "Positive Area": {
+        "Ease of Loan Application Process": "The majority of customers found the online loan application process to be very easy, with 84% rating it 4 or 5 out of 5.",
+        "Simplicity of the App": "Customers highlighted the simplicity and ease of use of the home credit loan app, with 93% rating these aspects in the top 2 boxes.",
+        "Transparency of Fees and Charges": "Customers appreciated the transparency of the app's fees and charges, with 71% rating this aspect in the top 2 boxes."
+    },
+    "Negative Area": {
+        "Download and Login Process": "A few customers reported issues with the download and login process of the home credit loan app, with some rating these aspects lower than 4 out of 5.",
+        "App Speed": "Some customers expressed concerns about the speed of the home credit loan app, with a few rating this aspect lower than 4 out of 5."
+    }
+}
+sleeping for 10 seconds
+INFO: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+1
+batch: 1, summary: {
+    "summary": "The feedback comments from customers of the Demo Company's online loan application process indicate a generally positive experience, with some areas for improvement. The majority of customers found the application process to be easy and straightforward, with high ratings for the app's download and login process, ease of use, and clarity of fees and interest rates. However, a few customers reported some challenges with the overall application process and the app's speed. The survey results suggest that the company's online loan service provides a user-friendly and efficient experience for its customers, with opportunities to further enhance the app's performance and transparency.",
+    "Positive Area": {
+        "Ease of Application Process": "Customers found the online loan application process to be easy and straightforward, with an average rating of 4.4 out of 5.",
+        "App Usability": "The app's download and login process, as well as its overall ease of use, were highly rated by 93% of respondents.",
+        "Transparency of Fees and Charges": "The clarity of the app's fees and interest rates was positively received, with 96% and 71% of respondents, respectively, rating them in the top 2 boxes."
+    },
+    "Negative Area": {
+        "Application Process Challenges": "A few customers reported some difficulties with the overall loan application process, with 16% of respondents rating it below 4 out of 5.",
+        "App Speed": "The app's speed was an area of concern for some customers, with 29% of respondents rating it below 4 out of 5."
+    }
+}
+sleeping for 10 seconds
+INFO: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+All batches summary ['{\n    "summary": "The feedback comments from customers of the home credit loan app indicate a generally positive experience, with some areas for improvement. The majority of customers found the online loan application process to be very easy, with 84% rating it 4 or 5 out of 5. Customers particularly appreciated the simplicity of the app, the transparency of fees and charges, and the overall ease of use. However, a few customers reported issues with the download and login process, as well as the app\'s speed and clarity of fees. The survey results suggest that the home credit loan app provides a user-friendly and efficient experience for most customers, but there is room for enhancement in certain areas to further improve the overall customer experience.",\n    "Positive Area": {\n        "Ease of Loan Application Process": "The majority of customers found the online loan application process to be very easy, with 84% rating it 4 or 5 out of 5.",\n        "Simplicity of the App": "Customers highlighted the simplicity and ease of use of the home credit loan app, with 93% rating these aspects in the top 2 boxes.",\n        "Transparency of Fees and Charges": "Customers appreciated the transparency of the app\'s fees and charges, with 71% rating this aspect in the top 2 boxes."\n    },\n    "Negative Area": {\n        "Download and Login Process": "A few customers reported issues with the download and login process of the home credit loan app, with some rating these aspects lower than 4 out of 5.",\n        "App Speed": "Some customers expressed concerns about the speed of the home credit loan app, with a few rating this aspect lower than 4 out of 5."\n    }\n}', '{\n    "summary": "The feedback comments from customers of the Demo Company\'s online loan application process indicate a generally positive experience, with some areas for improvement. The majority of customers found the application process to be easy and straightforward, with high ratings for the app\'s download and login process, ease of use, and clarity of fees and interest rates. However, a few customers reported some challenges with the overall application process and the app\'s speed. The survey results suggest that the company\'s online loan service provides a user-friendly and efficient experience for its customers, with opportunities to further enhance the app\'s performance and transparency.",\n    "Positive Area": {\n        "Ease of Application Process": "Customers found the online loan application process to be easy and straightforward, with an average rating of 4.4 out of 5.",\n        "App Usability": "The app\'s download and login process, as well as its overall ease of use, were highly rated by 93% of respondents.",\n        "Transparency of Fees and Charges": "The clarity of the app\'s fees and interest rates was positively received, with 96% and 71% of respondents, respectively, rating them in the top 2 boxes."\n    },\n    "Negative Area": {\n        "Application Process Challenges": "A few customers reported some difficulties with the overall loan application process, with 16% of respondents rating it below 4 out of 5.",\n        "App Speed": "The app\'s speed was an area of concern for some customers, with 29% of respondents rating it below 4 out of 5."\n    }\n}']
+INFO: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Master summary below>>>>
+{
+    "summary": "The feedback from customers of the Demo Company's home credit loan app indicates a generally positive experience, with the majority finding the online application process easy and the app itself user-friendly. Customers particularly appreciated the simplicity, transparency of fees, and overall ease of use. However, some customers reported issues with the download and login process, as well as the app's speed and clarity of fees. The survey results suggest that the home credit loan app provides an efficient experience for most customers, but there are opportunities to enhance certain areas to further improve the overall customer experience.",
+    "Positive Area": {
+        "Ease of Loan Application Process": "The majority of customers found the online loan application process to be very easy, with 84% rating it 4 or 5 out of 5.",
+        "Simplicity of the App": "Customers highlighted the simplicity and ease of use of the home credit loan app, with 93% rating these aspects in the top 2 boxes.",
+        "Transparency of Fees and Charges": "Customers appreciated the transparency of the app's fees and charges, with 71% rating this aspect in the top 2 boxes."
+    },
+    "Negative Area": {
+        "Download and Login Process": "A few customers reported issues with the download and login process of the home credit loan app, with some rating these aspects lower than 4 out of 5.",
+        "App Speed": "Some customers expressed concerns about the speed of the home credit loan app, with a few rating this aspect lower than 4 out of 5."
+    }
+}
+
+Process finished with exit code 0

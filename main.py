@@ -134,8 +134,9 @@ def process_start_approach_2_each_summary_and_combine(input_file, per_batch_size
     return main_summary
 
 def process_start_approach_2_each_summary_and_combine_with_approach_a_send_quant_data_summary_along_with_questions(input_file, per_batch_size, active_approach):
-    quant_data_summary = generate_quant_data_summary()
-
+    quant_data_summary = generate_quant_data_summary_with_survey_type_and_objective()
+    print('Quanty Summary Below >>>>>>')
+    print(quant_data_summary)
 
     batches_parts = process_csv_in_batches(input_file, per_batch_size)
     # for testing taking only first 3 batches
@@ -145,7 +146,7 @@ def process_start_approach_2_each_summary_and_combine_with_approach_a_send_quant
     batches_summaries = []
     while current_batch < len(batches_parts):
         print(current_batch)
-        current_batch_summary = summary_service.generate_batch_summary(active_approach, batches_parts[current_batch], '')
+        current_batch_summary = summary_service.generate_batch_summary_with_quant_summary(active_approach, batches_parts[current_batch], '', quant_data_summary)
         print(f"batch: {current_batch}, summary: {current_batch_summary}")
         batches_summaries.append(current_batch_summary)
         sleep_secs = 10
@@ -153,11 +154,11 @@ def process_start_approach_2_each_summary_and_combine_with_approach_a_send_quant
         sleep(sleep_secs)
         current_batch = current_batch + 1
 
-    print(f"All batches summary {batches_summaries}")
-    main_summary = summary_service.generate_master_summary(active_approach, batches_summaries)
-    print(f"Master summary below>>>>")
-    print(f"{main_summary}")
-    return main_summary
+    # print(f"All batches summary {batches_summaries}")
+    # main_summary = summary_service.generate_master_summary(active_approach, batches_summaries)
+    # print(f"Master summary below>>>>")
+    # print(f"{main_summary}")
+    # return main_summary
 
 def process_start_approach_3_take_random_data(input_file, batch_size, active_approach):
     batches_parts = process_csv_with_random_data(input_file, batch_size)
@@ -186,15 +187,20 @@ def get_quant_data_from_csv(file_path):
     return quant_data
 
 def generate_quant_data_summary():
-    file_path = "input_data_survey_telesales/numeric_data_survey_flexi_telesales.csv"
+    file_path = "input_data_survey_apria/numeric-data-apria.csv"
     quant_data = get_quant_data_from_csv(file_path)
     main_summary = summary_service.generate_quant_data_summary_request(quant_data)
     return main_summary
 
-def generate_quant_data_summary_along_with_questions_and_key_metrics():
-    file_path = "input_data_survey_telesales/numeric_data_survey_flexi_telesales.csv"
-    quant_data = get_quant_data_from_csv(file_path)
-    main_summary = summary_service.generate_quant_data_summary_request(quant_data)
+
+def generate_quant_data_summary_with_survey_type_and_objective():
+    quant_file_path = "input_data_survey_apria/numeric-data-apria.csv"
+    quant_data = get_quant_data_from_csv(quant_file_path)
+
+    survey_type = 'Relationship NPS survey among loan takers from a loan company'
+    key_metric = 'NPS rating of the customer'
+
+    main_summary = summary_service.generate_quant_data_summary_with_type_and_key_metric(quant_data,  survey_type, key_metric)
     return main_summary
 
 
@@ -202,9 +208,9 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
     final_summary = ''
-    file = "input_data_survey_telesales/survey-telesales.csv"
-    batch_size = 30
-    current_approach = 2
+    file = "input_data_survey_apria/survey-apria-reponse-full.csv"
+    batch_size = 100
+    current_approach = 1
     if current_approach == 1:
         final_summary = process_start_approach_1_previous_summary_add(file, batch_size, current_approach)
     if current_approach == 2:
